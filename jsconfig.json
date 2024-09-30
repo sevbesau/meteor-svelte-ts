@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/es5-shim": [
+        "/home/sevbesau/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/home/sevbesau/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/home/sevbesau/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/home/sevbesau/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/home/sevbesau/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/shell-server": [
+        "/home/sevbesau/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/home/sevbesau/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/mongo": [
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/local_collection_driver.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/collection.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/connection_options.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/doc_fetcher.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/mongo_driver.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/mongo_utils.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/observe_multiplex.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/oplog_observe_driver.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/oplog_tailing.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/oplog_v2_converter.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/polling_observe_driver.js",
+        "/home/sevbesau/.meteor/packages/mongo/1.16.0/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/sevbesau/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/sevbesau/.meteor/packages/ecmascript/0.16.2/web.browser/ecmascript.js"
+      ],
+      "meteor/zodern:melte": [
+        "/home/sevbesau/.meteor/packages/zodern_melte/1.6.1/web.browser/tracker.js",
+        "/home/sevbesau/.meteor/packages/zodern_melte/1.6.1/web.browser/SvelteCompiler.js",
+        "/home/sevbesau/.meteor/packages/zodern_melte/1.6.1/web.browser/hmr-runtime.js",
+        "/home/sevbesau/.meteor/packages/zodern_melte/1.6.1/web.browser/plugin.js",
+        "/home/sevbesau/.meteor/packages/zodern_melte/1.6.1/web.browser/proxy-adapter.js"
+      ],
+      "meteor/rdb:svelte-meteor-data": [
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/index.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/autorun.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/cursor.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/reactive-var.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/subscribe.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/use-session.js",
+        "/home/sevbesau/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/use-tracker.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/sevbesau/.meteor/packages/hot-module-replacement/0.5.1/web.browser/hot-api.js",
+        "/home/sevbesau/.meteor/packages/hot-module-replacement/0.5.1/web.browser/client.js",
+        "/home/sevbesau/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
